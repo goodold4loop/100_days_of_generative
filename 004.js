@@ -6,16 +6,8 @@ function setup() {
 function draw() {
   background("#000000");
 
-  
-
   rectMode(CENTER);
-  //noFill();
   
-  r = floor(random(100));
-  g = floor(random(200));
-  b = floor(random(100));
-  
-  //fill(100,200,100);
   stroke("orange"); 
   
   for(i = 1; i<30; i++) {
