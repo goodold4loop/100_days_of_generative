@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   translate(width / 2, height / 2);
-  let radius = 200 + noise(t) * 100;
+  let radius = 150 + noise(t) * 100;
   beginShape();
   for (let a = 0; a < TWO_PI; a += 0.05) {
     let r = radius + noise(t + a * 2) * 50;
